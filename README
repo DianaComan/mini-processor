@@ -1,0 +1,31 @@
+***************************************************************************
+TEMA 1 Sisteme de operare - Mini Procesor
+Coman Diana Stefania
+Grupa 335CA
+***************************************************************************
+Am o structura simpla de hashmap in hash.c pentru stocarea datelor de la 
+preprocesare.
+In ea am functiile insert, care insereaza un element, lookup, care cauta 
+un element, hashCode, care returneaza codul pentru stocare, si createTable
+care aloca dinamic tabela.
+
+in tema1.c, nai intai procesez parametrii, si ii sortez dupa flagul de dinainte.
+In cazul in care am un parametru gresit dau return -1.
+Incerc sa deschid fisierul de iesire, in cazul in care nu am iesire la stdout.
+Daca nu merge returnez -1. La fel si cu cel de intrare.
+
+Apoi citesc din fisier, si liniile citite le trimit functiei editt pt parsare.
+Din editt trm linia functiei corespunzatoare.
+
+In deffunct, ma ocup de define, adaug valoarea ceruta in hashtable si ma asigur 
+ca nu am alte linii in care se continua. In caz contrar in multidef tratez acest 
+lucru
+
+Functia iffunc se ocupa de if si elif, verifica daca valoarea exista si daca e 
+diferita de 0
+
+Functia checkfunc se ocupa de ifdef si ifndef, verifica  daca valorea e diferita
+de null.
+
+Include l-am facut in functia editt, pe care o va apela recursiv pt parsarea liniilor
+din fisiere incluse.
